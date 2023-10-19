@@ -2,7 +2,6 @@
 //Trendy Number Program
  import java.util.*;
 public class TrendyNum {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Number to Check if it is Trendy Number or Not");
@@ -13,7 +12,7 @@ public class TrendyNum {
 		}
 		else {
 			System.out.println("The Entered Number is Not a Trendy Number");
-	}
+		}
 		sc.close();
 	}
 }
